@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.589);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo{  
+    color: azure;
+    margin-left: 2rem;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+    gap: 2rem;
+}
+.navbar ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+header{
+    background-image: url(img/1.jpg);
+    height: 75vh;
+    
+}
+.seccion-peliculas{
+    display: flex;
+    flex-direction:row ;
+}
+.seccion_peliculas h2{
+    text-align: center;
+    padding: 2rem;
+}
+.card{
+    width: 16rem; 
+    transition: all 1s;
+    
+}
+.card img{
+    width: 16rem;
+    height: 16rem;
+}
+.card:hover{
+    box-shadow: 2px 2px 13px 5px rgba(54,48,48,0.71);
+-webkit-box-shadow: 2px 2px 13px 5px rgba(54,48,48,0.71);
+-moz-box-shadow: 2px 2px 13px 5px rgba(54,48,48,0.71);
+}
+.textos{
+    display: flex;
+    justify-content: space-evenly;
+    color: red;
+}
+.textos h3{
+    color: blueviolet;
+}
+p span{
+    font-size: .7rem;
+}
+.contenedor-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+} 
+.img{
+    height: 24rem;
+    
+}
+.centrar img{
+    position: relative;
+} 
+.centrar h3{
+    position: absolute;
+}
